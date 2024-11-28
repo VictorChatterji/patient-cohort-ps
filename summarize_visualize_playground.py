@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import os
 
-x = pd.read_csv('data/cohort_final.csv')
+x = pd.read_csv('data/cohort_filtered.csv')
 # y = pd.read_csv('data/patients.csv')
 # procedureevents = pd.read_csv('data/procedureevents.csv')
 
@@ -12,6 +12,6 @@ x = pd.read_csv('data/cohort_final.csv')
 # print(x[x["label"].str.contains("arterial", case=False, na=True)])
 
 # print(x.info())
-print(x.shape)
+print(x.info())
 # print(y.info())
 
